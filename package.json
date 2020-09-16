@@ -8,10 +8,13 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "del": "^5.1.0"
+  },
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
-    "gulp-file-include": "^2.2.2"
+    "gulp-file-include": "^2.2.2",
+    "gulp-sass": "^4.1.0"
   }
 }
