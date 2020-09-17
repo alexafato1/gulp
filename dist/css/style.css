@@ -1,5 +1,30 @@
+@font-face {
+  font-family: "kenyan coffee stencil sb";
+  font-display: swap;
+  src: url("../fonts/kenyan coffee stencil sb.woff") format("woff"), url("../fonts/kenyan coffee stencil sb.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  font-display: swap;
+  src: url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-size: 26px;
-  background-color: gainsboro;
-  border: 1px solid green;
+  font-size: 36px;
+}
+
+img {
+  width: 200px;
+}
+
+div {
+  background: url("../img/im.jpg") no-repeat;
+}
+@supports (-webkit-appearance:none){
+div{background:url("../img/im.webp") no-repeat}
 }
